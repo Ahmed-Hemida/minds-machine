@@ -1,0 +1,64 @@
+.arrow_left {
+    /* background-image: linear-gradient(to left, #000, #00000000); */
+    right: 0px;
+
+    /* top : 200px */
+}
+
+
+.carousel-container button img {
+    width: 30px;
+}
+
+.carousel-container button:hover {
+    opacity: 1;
+}
+
+.arro-button {
+    width: 60px;
+    height: 20px;
+    position: absolute;
+    background-color: #00000000;
+    z-index: 3;
+    margin-top: 5%;
+    /* right: 0;
+    top: 0; */
+    border: none;
+    /* opacity: 0; */
+}
+
+.carousel-container button.arrow_left {
+    right: auto;
+    left: 0;
+}
+
+.carousel-container .card-container {
+    width: 290px;
+    height: auto;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+
+.track {
+    display: inline-flex;
+    transition: transform 0.5s;
+}
+
+.carousel-container {
+
+    margin: 0px auto;
+    position: relative;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+
+}
+
+/* @media only screen and (max-width: 768px) {
+   .arrow_left {
+         background-image: linear-gradient(to left, #000, #00000000);
+        right:0px;
+        
+        top : 200px 
+    } 
+}*/
