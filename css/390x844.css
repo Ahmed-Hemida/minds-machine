@@ -5,7 +5,7 @@
         animation-name: up-animation-min-size!important;
      }
     .header {
-        width: 95%;
+        width: 100%;
      }
     .fs-14{
         font-size: 70px!important;
@@ -26,16 +26,27 @@
     .align-left{
         text-align:center;
     }
+    .fourth-section-img{
+        padding-bottom: 5%;
+        padding-top: 5%;
+    }
     .fourth-section-img img{
         width:40%!important;
+    }
+    .track .card .img{
+        margin-left:15px!important;
+        margin-right:0px!important;
+        width: 90%!important;
     }
     #form{
         margin-left:auto;
         margin-right:auto;
+        width: 70%!important;
     }
     .fourth-section-text .padding{
         margin-top:0px!important;
         margin-bottom:0px!important;
+        padding-bottom:20px!important;
         
     }
     .fourth-section-text .padding h1{
@@ -84,7 +95,7 @@
         display: block!important;
     }
     .w-45{
-        width: 90%!important;
+        width: 100%!important;
     }
     .first-section-text{
         text-align:center!important;
@@ -109,13 +120,14 @@
         float: none!important;
     }
     #logo-img{
-        width: 60px!important;
+        width: 100px!important;
+        margin-top: 5%!important;
     }
     #footer{
         text-align:center;
     }
     .first-section-text .description {
-        font-size: 10px!important;
+        font-size: 30px!important;
     }
     .grid-container {
         display: inherit !important;
