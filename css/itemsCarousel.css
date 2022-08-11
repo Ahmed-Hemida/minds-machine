@@ -45,10 +45,7 @@
     display: inline-flex;
     transition: transform 0.5s;
 }
-.track {
-    display: inline-flex;
-    transition: transform 0.5s;
-}
+
 
 .carousel-container {
 

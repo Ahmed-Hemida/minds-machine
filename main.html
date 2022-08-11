@@ -10,83 +10,35 @@
     <link rel="stylesheet" href="css/mainStyle.css">
     <link rel="stylesheet" href="css/itemsCarousel.css">
     <link rel="stylesheet" href="css/390x844.css">
+    <link rel="stylesheet" href="css/dropdown.css">
     <!-- <meta name="viewport" content="initial-scale=1.0, width=device-width"> -->
-    <style>
-        .dropbtn {
-            background: none;
-            padding: 16px;
-            font-size: 16px;
-            border: none;
-            cursor: pointer;
-            
-            /* text-shadow: 2px 2px #fed42d; */
-
-        }
-        
-        .dropdown {
-            position: relative;
-            display: inline-block;
-        }
-
-        .dropdown-content {
-            display: none;
-            position: absolute;
-            background-color: #ffffff;
-            min-width: 160px;
-            right: 3%;
-            border-radius: 10px;
-            overflow: auto;
-            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-            z-index: 1;
-
-            
-        }
-
-        .dropdown-content a {
-            color: black;
-            padding: 12px 16px;
-            text-decoration: none;
-            display: block;
-        }
-
-        .dropdown a:hover {
-            background-color: rgb(180, 180, 180);
-        }
-        
-        .show {
-            display: block;
-            -ms-display:ranslate(-50%, -50%);
-        }
-    </style>
 </head>
 
 <body>
-    <div class="header">
+    <div id="header"class="header">
         <div class="main-menu">
             <ul>
                 <li>
                     <img id="logo-img" src="img/logo-img-white.png">
                 </li>
-                <li class="dropbtn float-right text-black  fs-5">
+                <li class="dropbtn dropdown-float-right text-black  fs-5">
                     <button onclick="dropdown()" class="dropbtn">
                         <i class="fas d fa-bars"></i>
                     </button>
                     <div id="Dropdown" class="dropdown-content">
-                        <a href="#home">Home</a>
-                        <a href="#about">About</a>
-                        <a href="#contact">Contact</a>
+                        <a href="#Portfolio">Portfolio</a>
+                        <a href="#CaseStudies">Case studies</a>
+                        <a href="#OurServices">Our services</a>
+                        <!-- <a href="#Testimonials">Testimonials</a> -->
+                        <a href="#contact">Contact </a>
+                        
                     </div>
                 </li>
                 <!-- <li>About US</li> -->
             </ul>
         </div>
     </div>
-    <!-- <div id="submenu" class="">
-            <div class="h-100 w-30 bg-black">
-
-            </div>
-    </div> -->
-    <section class="first-section">
+    <section id="Portfolio"class="first-section">
         <div class="w-50  inline-block ">
             <img class="w-100 h-50  " src="img/section2-img.png">
         </div>
@@ -109,7 +61,7 @@
 	  	</video>
             -->
     </section>
-    <section class="second-section">
+    <section id="CaseStudies"class="second-section">
         <div class="w-40 ml-5 inline-block float-left second-section-text">
             <div class="title align-left mb-5 fs-5">
                 Our work is featured
@@ -135,11 +87,11 @@
         </div>
     </section>
     <section class="third-section">
-        <div class="w-45  inline-block img">
+        <div class="w-40 inline-block img">
             <div class="card shadow-black bg-img-stat"></div>
             <!-- <img class="w-100"src="img/section2-img.png" > -->
         </div>
-        <div class="w-45 inline-block float-right  second-section-text">
+        <div class="w-45 inline-block second-section-text">
             <div class="title">
                 Our results speak for themselves
             </div>
@@ -156,10 +108,10 @@
             </div>
         </div>
     </section>
-    <section class="fourth-section">
+    <section id="OurServices" class="fourth-section">
 
         <div class="grid-container">
-            <div class="inline-block float-left fourth-section-text grid-item">
+            <div class="fourth-section-text grid-item">
                 <div class="padding">
 
                     <h1 class="fs-14">
@@ -196,7 +148,7 @@
 
                 </div>
             </div>
-            <div class="inline-block fourth-section-img grid-item ">
+            <div class="fourth-section-img grid-item ">
                 <div class="margin-top">
 
                     <img class="up-animation" src="img/brain.png">
@@ -212,87 +164,90 @@
                 we provided work fo
             </h1> 
         </div> -->
-        <div class="carousel-container inline-block">
+        <div class="carousel-container">
 
             <div class="track">
-                <div class="" style="width: 200px;">
-                    <img class="w-90" src="img/ORASCOM-LOGO.png">
+                <div class="m-auto" style="width: 500px;">
+                    <img class="w-90 " src="img/logos/we.png">
+                </div>
+                <div class="m-auto" style="width: 200px;">
+                    <img class="w-90 " src="img/logos/E7gezly-logo.png">
                 </div>
                
-                <div class="" style="width: 200px;">
-                    <img class="w-90" src="img/ORASCOM-LOGO.png">
+                <div class="m-auto" style="width: 200px;">
+                    <img class="w-90 " src="img/logos/ERA_Real_Estate_logo.png">
                 </div>
                 
-                <div class="" style="width: 200px;">
-                    <img class="w-90" src="img/ORASCOM-LOGO.png">
+                <div class="m-auto" style="width: 200px;">
+                    <img class="w-90 " src="img/logos/GESR-Logo-Colors.png">
                 </div>
                
-                <div class="" style="width: 200px;">
-                    <img class="w-90" src="img/ORASCOM-LOGO.png">
+                <div class="m-auto" style="width: 200px;">
+                    <img class="w-90 " src="img/logos/HD-Bank-logo-f-01.png">
                 </div>
               
-                <div class="" style="width: 200px;">
-                    <img class="w-90" src="img/ORASCOM-LOGO.png">
+                <div class="m-auto" style="width: 200px;">
+                    <img class="w-90 " src="img/logos/Hyundai-Logo-1024x709.png">
                 </div>
                
-                <div class="" style="width: 200px;">
-                    <img class="w-90" src="img/ORASCOM-LOGO.png">
+                <div class="m-auto" style="width: 200px;">
+                    <img class="w-90 " src="img/logos/RadioShack_logo.png">
                 </div>
                 
-                <div class="" style="width: 200px;">
-                    <img class="w-90" src="img/ORASCOM-LOGO.png">
+                <div class="m-auto" style="width: 200px;">
+                    <img class="w-90 " src="img/logos/Realme_logo.png">
                 </div>
                
-                <div class="" style="width: 200px;">
-                    <img class="w-90" src="img/ORASCOM-LOGO.png">
+                <div class="m-auto" style="width: 200px;">
+                    <img class="w-90 " src="img/logos/World_Bank_Group_logo.png">
                 </div>
               
-                <div class="" style="width: 200px;">
-                    <img class="w-90" src="img/ORASCOM-LOGO.png">
+                <div class="m-auto" style="width: 200px;">
+                    <img class="w-90 " src="img/logos/auc.png">
                 </div>
                
-                <div class="" style="width: 200px;">
-                    <img class="w-90" src="img/ORASCOM-LOGO.png">
+                <div class="m-auto" style="width: 200px;">
+                    <img class="w-90 " src="img/logos/coldwell.png">
                 </div>
                 
-                <div class="" style="width: 200px;">
-                    <img class="w-90" src="img/ORASCOM-LOGO.png">
+                <div class="m-auto" style="width: 200px;">
+                    <img class="w-90 " src="img/logos/fab.png">
                 </div>
                
-                <div class="" style="width: 200px;">
-                    <img class="w-90" src="img/ORASCOM-LOGO.png">
+                <div class="m-auto" style="width: 200px;">
+                    <img class="w-90 " src="img/logos/iacc-holdings.png">
                 </div>
               
-                <div class="" style="width: 200px;">
-                    <img class="w-90" src="img/ORASCOM-LOGO.png">
+                <div class="m-auto" style="width: 200px;">
+                    <img class="w-90 " src="img/logos/iacc-logistics.png">
                 </div>
                
-                <div class="" style="width: 200px;">
-                    <img class="w-90" src="img/ORASCOM-LOGO.png">
+                <div class="m-auto" style="width: 200px;">
+                    <img class="w-90 " src="img/logos/infinix.png">
                 </div>
                 
-                <div class="" style="width: 200px;">
-                    <img class="w-90" src="img/ORASCOM-LOGO.png">
+                <div class="m-auto" style="width: 200px;">
+                    <img class="w-90 " src="img/logos/podu-new-version.png">
                 </div>
                
-                <div class="" style="width: 200px;">
-                    <img class="w-90" src="img/ORASCOM-LOGO.png">
+                <div class="m-auto" style="width: 200px;">
+                    <img class="w-90 " src="img/logos/safina.png">
                 </div>
               
-                <div class="" style="width: 200px;">
-                    <img class="w-90" src="img/ORASCOM-LOGO.png">
+                <div class="m-auto" style="width: 200px;">
+                    <img class="w-90 " src="img/logos/samsung-logo-white.png">
                 </div>
                
-                <div class="" style="width: 200px;">
-                    <img class="w-90" src="img/ORASCOM-LOGO.png">
+                <div class="m-auto" style="width: 200px;">
+                    <img class="w-90 " src="img/logos/tci-logo.png">
                 </div>
                 
-                <div class="" style="width: 200px;">
-                    <img class="w-90" src="img/ORASCOM-LOGO.png">
+                <div class="m-auto" style="width: 200px;">
+                    <img class="w-90 " src="img/logos/transmar.png">
                 </div>
                
-                <div class="" style="width: 200px;">
-                    <img class="w-90" src="img/ORASCOM-LOGO.png">
+                <div class="m-auto" style="width: 200px;">
+                    <img class="w-90 " src="img/logos/tseppas.png">
                 </div>
               
 
@@ -321,7 +276,7 @@
                     <div class=" card   bg-black shadow-SunGlow  ml-5 fs-4 w-80">
                         <div class="img">
                             <div class=" w-10 ">
-                                <img class="w-30" src="img/qoute-right.png">
+                                <img class="w-100" src="img/qoute-right.png">
                             </div>
                             <div class="font-pr pl-5 ">
                                 Working with the M&M team
@@ -329,13 +284,13 @@
                                 They’ve always had our backs.
                             </div>
                             <div class="w-10 ">
-                                <img class="w-30" src="img/qoute-left.png">
+                                <img class="w-100" src="img/qoute-left.png">
                             </div>
                         </div>
                     </div>
                     <div class="inline-block w-65 m-15-px">
 
-                        <div class="card w-80 bg-img-profile shadow-black">
+                        <div class="card w-80 bg-img-profile shadow-black border-black">
                         </div>
                         <div id="sixth-section-card-img-profile-info" class="card shadow-black text-black ">
                             <div class="font-pb fs-2">
@@ -354,16 +309,11 @@
                     <i class="fas fa-long-arrow-right"></i>
                 </button>
             </div>
-            <!-- <div class="inline-block float-right mt-5 pr-5">
-                <button class="radius-10 bg-SunGlow">
-                    <img class=""
-                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAAA3ElEQVRoge3Yq0pFQRgF4A8VRLAoqMkm2KwHfEK7D2A32AV3VJuXIJxmEiwWfYBjGEEwGPyF4Qzrg52mrLWv/2wiIiIiIqKvKzxgt3eQqmss8IjtzllKdvCklbnHVt84NXuYa2VusNk3Ts0+nrUyEzb6xqk5wItW5hLrfePUHOJVK3OBtb5xao7wppU5x2rfODUzvGtlzrDSN07NMT60Mqc/F6evhWU8Tvi+NIvCGYo/+vXWWhZDPOxDvH6H+CAOMaIMMTQOMcYPs7G6NchWd8KdAX4+RERERET8v091+2TuubwCvQAAAABJRU5ErkJggg==">
-                </button>
-            </div> -->
+            
         </div>
 
     </section>
-    <section class="seventh-section bg-SunGlow">
+    <section id="contact"class="seventh-section bg-SunGlow">
 
         <div class="grid-container">
             <div class=" pt-5 pl-5 text-black seventh-section-text">
@@ -424,12 +374,12 @@
     <footer id="footer">
 
         <div class="p-5">
-            <div class="left-section w-70 inline-block">
-                <img id="logo-img" class="w-45 mb-5" src="img/logo-img.png">
+            <div class="left-section w-60 inline-block">
+                <img id="footer-logo-img" class="w-100 mb-5" src="img/logo-img.png">
 
 
             </div>
-            <div class="left-section font-pb fs-3 w-30 p-5 w-20 float-right inline-block">
+            <div class="left-section font-pb fs-3 p-5 w-20 float-right inline-block">
                 <div class="m-5">
                     Help</div>
                 <div class="m-5">
@@ -461,68 +411,11 @@
                 <i class="fas fa-copyright"></i> 2021 Minds&Machines
             </div>
         </div>
-        <!--  <div class="center-section">
-            <h1>concect US </h1>
-            <div class="discription">
-                <div> <i class="fas fa-phone-alt"></i>
-                    phone : 01020574493</div>
-                        <div>
-                            <i class="fas fa-at"></i>
-                             Mail : ahmedhemida383@gmail.com
-                    </div>
-                       
-                        <div><i class="fab fa-internet-explorer"></i> website :
-                            www.ahmedhemida.com</div>
-                </div>
-        </div> -->
-
     </footer>
-    <!-- <form>
-        <div class="row">
-            <label for="name">Name</label>  
-            <input type="text" id="name" name="name" placeholder="name">
-          </div>
-          <div class="row">
-        <label for="mail">email</label>  
-        <input type="email" id="email" placeholder="email">  
-          </div>
-          <div class="row">
-            <label for="textarea"> Question</label>  <br>
-            <textarea type="text" id="textarea" placeholder="enter your Question"></textarea>
-          </div >
-    </form> 
-   <img src="https://img.icons8.com/dusk/512/000000/home.png">  -->
 
-    <!-- <div style="text-align: right;position: fixed;z-index:9999999;bottom: 0;width: auto;right: 1%;cursor: pointer;line-height: 0;display:block !important;">
-    <a title="Hosted on free web hosting 000webhost.com. Host your own website for FREE." target="_blank" href="https://www.000webhost.com/?utm_source=000webhostapp&utm_campaign=000_logo&utm_medium=website&utm_content=footer_img">
-        <img src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png" alt="www.000webhost.com">
-    </a>
-</div> -->
 
-    <script>
-        /* When the user clicks on the button, 
-        toggle between hiding and showing the dropdown content */
-        document.arrive(".second-section", function() {
-             console.log('.second-section arrived', this);})
-        function dropdown() {
-            document.getElementById("Dropdown").classList.toggle("show");
-        }
-
-        // Close the dropdown if the user clicks outside of it
-        window.onclick = function (event) {
-            if (!event.target.matches('.dropbtn')) {
-                var dropdowns = document.getElementsByClassName("dropdown-content");
-                var i;
-                for (i = 0; i < dropdowns.length; i++) {
-                    var openDropdown = dropdowns[i];
-                    if (openDropdown.classList.contains('show')) {
-                        openDropdown.classList.remove('show');
-                    }
-                }
-            }
-        }
-
-    </script>
+    <script  src="js/mainJs.js"> </script>
+    <script  src="js/dropdown.js"></script>
 </body>
 
 </html>
