@@ -157,6 +157,23 @@
  
     margin-left: 5%;
  }
+ .ml-4 {
+ 
+    margin-left: 4%;
+ }
+ .ml-3 {
+ 
+    margin-left: 3%;
+ }
+ .ml-2 {
+ 
+    margin-left: 2%;
+ }
+ 
+ .ml-1 {
+ 
+    margin-left: 1%;
+ }
  
  .m-5 {
  
@@ -264,11 +281,12 @@
     background: #F09DC4 !important;
  }
  
- 
- .horizontal-center {
-    margin-top: auto;
-    margin-bottom: auto;
-    display: block;
+
+ .bg-none{
+   background: none;
+ }
+ .border-none{
+   border: none;
  }
  
  .radius-10 {
@@ -303,7 +321,12 @@
     /* margin-top: 20%;
     margin-left: 10%; */
  }
- 
+ a:-webkit-any-link {
+   color: #fff;
+   /* cursor: none!important; */
+   text-decoration: none!important;
+}
+
 .m-auto{
     margin-top: auto;
     margin-bottom: auto;
@@ -314,6 +337,9 @@
  
  .align-left {
     text-align: left;
+ }
+ .align-right {
+    text-align: right;
  }
  .overlay {
     position: absolute;
@@ -337,16 +363,7 @@
     height: 100%;
     /* z-index: 1; */
  }
- body {
-    margin: 0;
- 
-    padding: 0;
-    background-image: url('../img/portfolio-page-1.jpg');
-    /* background-repeat: no-repeat !important; */
-    /* background-size: cover !important; */
-    /* background-position: center !important; */
- 
- }
+
  
 .card {
     /* align-items: center; */

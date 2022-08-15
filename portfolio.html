@@ -17,6 +17,25 @@
 </head>
 
 <body>
+    <div id="embeddedVideoPlayer">
+
+        <div class=" ">
+            <span> <button class="bg-none text-white float-right fs-4" onclick="closeEmbeddedPlay()">X</button></span>
+            <div class="inline-block w-40 m-auto text-white" style="margin-top:20% ;">
+                <h1>SA\DDCASDA</h1>
+                <div>
+                    CDAS\DC\ASCXDA
+                </div>
+            </div>
+            <div class="inline-block w-40">
+
+                <iframe id="iframe" class="mt-5 " frameborder="0" allow="autoplay; fullscreen; picture-in-picture"
+                     style="position:absolute;left: 0px;width:100%;height: 60%;" title="ep3-1.mp4"></iframe>
+            </div>
+        </div>
+
+        <script src="https://player.vimeo.com/api/player.js"></script>
+    </div>
     <div id="header" class="header">
         <div class="main-menu">
             <ul>
@@ -42,14 +61,14 @@
 
     <section class="m-5">
         <div class="">
-            <span class="fs-3 font-pb"> vidoes 
+            <span class="fs-3 font-pb"> videos
                 <i class="fa-solid fa-circle-play"></i>
             </span>
             <span class="float-right">
                 <button class=" radius-10 bg-SunGlow " onclick="leftSlide('vidoes')">
                     <i class="fas fa-long-arrow-left"></i>
                 </button>
-                <button class=" radius-10 bg-SunGlow "onclick="rightSlide('vidoes')">
+                <button class=" radius-10 bg-SunGlow " onclick="rightSlide('vidoes')">
                     <i class="fas fa-long-arrow-right"></i>
                 </button>
             </span>
@@ -60,165 +79,250 @@
 
 
                 <div class="card shadow-black text-black  border-black">
-                    <i class="fas fa-play-circle text-SunGlow fs-4 float-right m-5"></i>
+                    <button class="bg-none border-none"
+                        onclick="openEmbeddedPlay('https://player.vimeo.com/video/739627109?h=f5434cebb8&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479')">
+
+                        <i class="fas fa-play-circle text-SunGlow fs-4 float-right m-5"></i>
+                    </button>
                 </div>
 
 
                 <div class="card shadow-black border-black">
-                    
-                    <i class="fas fa-play-circle text-SunGlow fs-4 float-right m-5"></i>
+
+                    <button class="bg-none border-none" onclick="openEmbeddedPlay()">
+
+                        <i class="fas fa-play-circle text-SunGlow fs-4 float-right m-5"></i>
+                    </button>
                 </div>
 
 
                 <div class="card shadow-black border-black">
-                    
-                    <i class="fas fa-play-circle text-SunGlow fs-4 float-right m-5"></i>
+
+                    <button class="bg-none border-none" onclick="openEmbeddedPlay()">
+
+                        <i class="fas fa-play-circle text-SunGlow fs-4 float-right m-5"></i>
+                    </button>
                 </div>
 
 
                 <div class="card shadow-black border-black">
-                    
-                    <i class="fas fa-play-circle text-SunGlow fs-4 float-right m-5"></i>
+
+                    <button class="bg-none border-none" onclick="openEmbeddedPlay()">
+
+                        <i class="fas fa-play-circle text-SunGlow fs-4 float-right m-5"></i>
+                    </button>
                 </div>
 
 
                 <div class="card shadow-black border-black">
-                    
-                    <i class="fas fa-play-circle text-SunGlow fs-4 float-right m-5"></i>
+
+                    <button class="bg-none border-none" onclick="openEmbeddedPlay()">
+
+                        <i class="fas fa-play-circle text-SunGlow fs-4 float-right m-5"></i>
+                    </button>
                 </div>
 
 
                 <div class="card shadow-black border-black">
-                    
-                    <i class="fas fa-play-circle text-SunGlow fs-4 float-right m-5"></i>
+
+                    <button class="bg-none border-none" onclick="openEmbeddedPlay()">
+
+                        <i class="fas fa-play-circle text-SunGlow fs-4 float-right m-5"></i>
+                    </button>
                 </div>
 
 
                 <div class="card shadow-black border-black">
-                    
-                    <i class="fas fa-play-circle text-SunGlow fs-4 float-right m-5"></i>
+
+                    <button class="bg-none border-none" onclick="openEmbeddedPlay()">
+
+                        <i class="fas fa-play-circle text-SunGlow fs-4 float-right m-5"></i>
+                    </button>
                 </div>
                 <div class="card shadow-black border-black">
-                    
-                    <i class="fas fa-play-circle text-SunGlow fs-4 float-right m-5"></i>
-                </div>
 
+                    <button class="bg-none border-none" onclick="openEmbeddedPlay()">
 
-                <div class="card shadow-black border-black">
-                    
-                    <i class="fas fa-play-circle text-SunGlow fs-4 float-right m-5"></i>
-                </div>
-
-
-                <div class="card shadow-black border-black">
-                    
-                    <i class="fas fa-play-circle text-SunGlow fs-4 float-right m-5"></i>
+                        <i class="fas fa-play-circle text-SunGlow fs-4 float-right m-5"></i>
+                    </button>
                 </div>
 
 
                 <div class="card shadow-black border-black">
-                    
-                    <i class="fas fa-play-circle text-SunGlow fs-4 float-right m-5"></i>
+
+                    <button class="bg-none border-none" onclick="openEmbeddedPlay()">
+
+                        <i class="fas fa-play-circle text-SunGlow fs-4 float-right m-5"></i>
+                    </button>
                 </div>
 
 
                 <div class="card shadow-black border-black">
-                    
-                    <i class="fas fa-play-circle text-SunGlow fs-4 float-right m-5"></i>
+
+                    <button class="bg-none border-none" onclick="openEmbeddedPlay()">
+
+                        <i class="fas fa-play-circle text-SunGlow fs-4 float-right m-5"></i>
+                    </button>
                 </div>
 
 
                 <div class="card shadow-black border-black">
-                    
-                    <i class="fas fa-play-circle text-SunGlow fs-4 float-right m-5"></i>
+
+                    <button class="bg-none border-none" onclick="openEmbeddedPlay()">
+
+                        <i class="fas fa-play-circle text-SunGlow fs-4 float-right m-5"></i>
+                    </button>
                 </div>
 
 
                 <div class="card shadow-black border-black">
-                    
-                    <i class="fas fa-play-circle text-SunGlow fs-4 float-right m-5"></i>
+
+                    <button class="bg-none border-none" onclick="openEmbeddedPlay()">
+
+                        <i class="fas fa-play-circle text-SunGlow fs-4 float-right m-5"></i>
+                    </button>
                 </div>
 
 
                 <div class="card shadow-black border-black">
-                    
-                    <i class="fas fa-play-circle text-SunGlow fs-4 float-right m-5"></i>
+
+                    <button class="bg-none border-none" onclick="openEmbeddedPlay()">
+
+                        <i class="fas fa-play-circle text-SunGlow fs-4 float-right m-5"></i>
+                    </button>
                 </div>
 
 
                 <div class="card shadow-black border-black">
-                    
-                    <i class="fas fa-play-circle text-SunGlow fs-4 float-right m-5"></i>
+
+                    <button class="bg-none border-none" onclick="openEmbeddedPlay()">
+
+                        <i class="fas fa-play-circle text-SunGlow fs-4 float-right m-5"></i>
+                    </button>
                 </div>
 
 
                 <div class="card shadow-black border-black">
-                    
-                    <i class="fas fa-play-circle text-SunGlow fs-4 float-right m-5"></i>
+
+                    <button class="bg-none border-none" onclick="openEmbeddedPlay()">
+
+                        <i class="fas fa-play-circle text-SunGlow fs-4 float-right m-5"></i>
+                    </button>
                 </div>
 
 
                 <div class="card shadow-black border-black">
-                    
-                    <i class="fas fa-play-circle text-SunGlow fs-4 float-right m-5"></i>
+
+                    <button class="bg-none border-none" onclick="openEmbeddedPlay()">
+
+                        <i class="fas fa-play-circle text-SunGlow fs-4 float-right m-5"></i>
+                    </button>
                 </div>
 
 
                 <div class="card shadow-black border-black">
-                    
-                    <i class="fas fa-play-circle text-SunGlow fs-4 float-right m-5"></i>
+
+                    <button class="bg-none border-none" onclick="openEmbeddedPlay()">
+
+                        <i class="fas fa-play-circle text-SunGlow fs-4 float-right m-5"></i>
+                    </button>
                 </div>
 
 
                 <div class="card shadow-black border-black">
-                    
-                    <i class="fas fa-play-circle text-SunGlow fs-4 float-right m-5"></i>
+
+                    <button class="bg-none border-none" onclick="openEmbeddedPlay()">
+
+                        <i class="fas fa-play-circle text-SunGlow fs-4 float-right m-5"></i>
+                    </button>
                 </div>
 
 
                 <div class="card shadow-black border-black">
-                    
-                    <i class="fas fa-play-circle text-SunGlow fs-4 float-right m-5"></i>
-                </div>
-                <div class="card shadow-black border-black">
-                    
-                    <i class="fas fa-play-circle text-SunGlow fs-4 float-right m-5"></i>
-                </div>
 
+                    <button class="bg-none border-none" onclick="openEmbeddedPlay()">
 
-                <div class="card shadow-black border-black">
-                    
-                    <i class="fas fa-play-circle text-SunGlow fs-4 float-right m-5"></i>
+                        <i class="fas fa-play-circle text-SunGlow fs-4 float-right m-5"></i>
+                    </button>
                 </div>
 
 
                 <div class="card shadow-black border-black">
-                    
-                    <i class="fas fa-play-circle text-SunGlow fs-4 float-right m-5"></i>
+
+                    <button class="bg-none border-none" onclick="openEmbeddedPlay()">
+
+                        <i class="fas fa-play-circle text-SunGlow fs-4 float-right m-5"></i>
+                    </button>
                 </div>
 
 
                 <div class="card shadow-black border-black">
-                    
-                    <i class="fas fa-play-circle text-SunGlow fs-4 float-right m-5"></i>
+
+                    <button class="bg-none border-none" onclick="openEmbeddedPlay()">
+
+                        <i class="fas fa-play-circle text-SunGlow fs-4 float-right m-5"></i>
+                    </button>
+                </div>
+                <div class="card shadow-black border-black">
+
+                    <button class="bg-none border-none" onclick="openEmbeddedPlay()">
+
+                        <i class="fas fa-play-circle text-SunGlow fs-4 float-right m-5"></i>
+                    </button>
                 </div>
 
 
                 <div class="card shadow-black border-black">
-                    
-                    <i class="fas fa-play-circle text-SunGlow fs-4 float-right m-5"></i>
+
+                    <button class="bg-none border-none" onclick="openEmbeddedPlay()">
+
+                        <i class="fas fa-play-circle text-SunGlow fs-4 float-right m-5"></i>
+                    </button>
                 </div>
 
 
                 <div class="card shadow-black border-black">
-                    
-                    <i class="fas fa-play-circle text-SunGlow fs-4 float-right m-5"></i>
+
+                    <button class="bg-none border-none" onclick="openEmbeddedPlay()">
+
+                        <i class="fas fa-play-circle text-SunGlow fs-4 float-right m-5"></i>
+                    </button>
                 </div>
 
 
                 <div class="card shadow-black border-black">
-                    
-                    <i class="fas fa-play-circle text-SunGlow fs-4 float-right m-5"></i>
+
+                    <button class="bg-none border-none" onclick="openEmbeddedPlay()">
+
+                        <i class="fas fa-play-circle text-SunGlow fs-4 float-right m-5"></i>
+                    </button>
+                </div>
+
+
+                <div class="card shadow-black border-black">
+
+                    <button class="bg-none border-none" onclick="openEmbeddedPlay()">
+
+                        <i class="fas fa-play-circle text-SunGlow fs-4 float-right m-5"></i>
+                    </button>
+                </div>
+
+
+                <div class="card shadow-black border-black">
+
+                    <button class="bg-none border-none" onclick="openEmbeddedPlay()">
+
+                        <i class="fas fa-play-circle text-SunGlow fs-4 float-right m-5"></i>
+                    </button>
+                </div>
+
+
+                <div class="card shadow-black border-black">
+
+                    <button class="bg-none border-none" onclick="openEmbeddedPlay()">
+
+                        <i class="fas fa-play-circle text-SunGlow fs-4 float-right m-5"></i>
+                    </button>
                 </div>
             </div>
         </div>
@@ -226,353 +330,98 @@
             <source src="https://tbwa.com/img/slash_loop/particles.mp4" type="video/mp4">
         </video>
     -->
-</section>
+    </section>
 
     <section class="m-5">
         <div class="">
-            <span class="fs-3 font-pb"> Artworks 
+            <span class="fs-3 font-pb"> Artworks
                 <i class="fa-solid fa-circle-play"></i>
             </span>
         </div>
-        
+
         <div class="">
             <div class="" id="">
                 <div class="gallery">
                     <div class="card inline-block shadow-black border-black">
-                        <img src="https://i.pinimg.com/originals/50/07/4e/50074e096cdd429a8423b3bcdab27145.jpg" 
-                        alt="Cinque Terre" >
-                        <div class="overlay">
-                            <div class="font-pb img-discription ">
-                                <div class="fs-5">
-                                    ZO7lE2A
+                        <img src="	https://mir-s3-cdn-cf.behance.net/projects/404/a545d489669987.Y3JvcCw4MDgsNjMyLDAsMA.jpg"
+                            alt="Cinque Terre">
+                        <a target="_blank"
+                            href="https://www.behance.net/gallery/85411913/podU-Shows-Artworks-Chapter-One">
+
+                            <div class="overlay">
+                                <div class="font-pb img-discription ">
+                                    <div class="fs-5">
+                                        ZO7lE2A
+                                    </div>
+                                    Lorem Ipsum is simply dummy text
+                                    of the printing and typesetting
+                                    industry. Lorem Ipsum has been
+                                    the industry's standard dummy
+                                    text ever .
                                 </div>
-                                Lorem Ipsum is simply dummy text
-                                of the printing and typesetting
-                                industry. Lorem Ipsum has been
-                                the industry's standard dummy
-                                text ever .
                             </div>
-                        </div>
+
+                        </a>
                     </div>
                     <div class="card inline-block shadow-black border-black">
-                        <img src="https://i.pinimg.com/originals/50/07/4e/50074e096cdd429a8423b3bcdab27145.jpg" 
-                        alt="Cinque Terre" >
-                        <div class="overlay">
-                            <div class="font-pb img-discription ">
-                                <div class="fs-5">
-                                    ZO7lE2A
+                        <img src="https://mir-s3-cdn-cf.behance.net/projects/404/a6a730148605191.Y3JvcCw4NjYsNjc3LDI1OSwzMzEy.png"
+                            alt="Cinque Terre">
+
+                        <a target="_blank"
+                            href="https://www.behance.net/gallery/85411913/podU-Shows-Artworks-Chapter-One">
+                            <div class="overlay">
+                                <div class="font-pb img-discription ">
+                                    <div class="fs-5">
+                                        ZO7lE2A
+                                    </div>
+                                    Lorem Ipsum is simply dummy text
+                                    of the printing and typesetting
+                                    industry. Lorem Ipsum has been
+                                    the industry's standard dummy
+                                    text ever .
                                 </div>
-                                Lorem Ipsum is simply dummy text
-                                of the printing and typesetting
-                                industry. Lorem Ipsum has been
-                                the industry's standard dummy
-                                text ever .
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="card inline-block shadow-black border-black">
-                        <img src="https://i.pinimg.com/originals/50/07/4e/50074e096cdd429a8423b3bcdab27145.jpg" 
-                        alt="Cinque Terre" >
-                        <div class="overlay">
-                             <div class="font-pb img-discription ">
-                                <div class="fs-5">
-                                    ZO7lE2A
+                        <img src="	https://mir-s3-cdn-cf.behance.net/projects/404/418a5c114679057.Y3JvcCwxMDgwLDg0NSwxNTIsMTQ0NTk.jpg"
+                            alt="Cinque Terre">
+
+                        <a target="_blank"
+                            href="https://www.behance.net/gallery/85411913/podU-Shows-Artworks-Chapter-One">
+                            <div class="overlay">
+                                <div class="font-pb img-discription ">
+                                    <div class="fs-5">
+                                        ZO7lE2A
+                                    </div>
+                                    Lorem Ipsum is simply dummy text
+                                    of the printing and typesetting
+                                    industry. Lorem Ipsum has been
+                                    the industry's standard dummy
+                                    text ever .
                                 </div>
-                                Lorem Ipsum is simply dummy text
-                                of the printing and typesetting
-                                industry. Lorem Ipsum has been
-                                the industry's standard dummy
-                                text ever .
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="card inline-block shadow-black border-black">
-                        <img src="https://i.pinimg.com/originals/50/07/4e/50074e096cdd429a8423b3bcdab27145.jpg" 
-                        alt="Cinque Terre" >
-                        <div class="overlay">
-                             <div class="font-pb img-discription ">
-                                <div class="fs-5">
-                                    ZO7lE2A
+                        <img src="	https://mir-s3-cdn-cf.behance.net/projects/404/d9a07285411913.Y3JvcCwxMTU5LDkwNiwxNDYsMA.png"
+                            alt="Cinque Terre">
+
+                        <a target="_blank"
+                            href="https://www.behance.net/gallery/85411913/podU-Shows-Artworks-Chapter-One">
+                            <div class="overlay">
+                                <div class="font-pb img-discription ">
+                                    <div class="fs-5">
+                                        ZO7lE2A
+                                    </div>
+                                    Lorem Ipsum is simply dummy text
+                                    of the printing and typesetting
+                                    industry. Lorem Ipsum has been
+                                    the industry's standard dummy
+                                    text ever .
                                 </div>
-                                Lorem Ipsum is simply dummy text
-                                of the printing and typesetting
-                                industry. Lorem Ipsum has been
-                                the industry's standard dummy
-                                text ever .
                             </div>
-                        </div>
-                    </div>
-                    <div class="card inline-block shadow-black border-black">
-                        <img src="https://i.pinimg.com/originals/50/07/4e/50074e096cdd429a8423b3bcdab27145.jpg" 
-                        alt="Cinque Terre" >
-                        <div class="overlay">
-                             <div class="font-pb img-discription ">
-                                <div class="fs-5">
-                                    ZO7lE2A
-                                </div>
-                                Lorem Ipsum is simply dummy text
-                                of the printing and typesetting
-                                industry. Lorem Ipsum has been
-                                the industry's standard dummy
-                                text ever .
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card inline-block shadow-black border-black">
-                        <img src="https://i.pinimg.com/originals/50/07/4e/50074e096cdd429a8423b3bcdab27145.jpg" 
-                        alt="Cinque Terre" >
-                        <div class="overlay">
-                             <div class="font-pb img-discription ">
-                                <div class="fs-5">
-                                    ZO7lE2A
-                                </div>
-                                Lorem Ipsum is simply dummy text
-                                of the printing and typesetting
-                                industry. Lorem Ipsum has been
-                                the industry's standard dummy
-                                text ever .
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card inline-block shadow-black border-black">
-                        <img src="https://i.pinimg.com/originals/50/07/4e/50074e096cdd429a8423b3bcdab27145.jpg" 
-                        alt="Cinque Terre" >
-                        <div class="overlay">
-                             <div class="font-pb img-discription ">
-                                <div class="fs-5">
-                                    ZO7lE2A
-                                </div>
-                                Lorem Ipsum is simply dummy text
-                                of the printing and typesetting
-                                industry. Lorem Ipsum has been
-                                the industry's standard dummy
-                                text ever .
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card inline-block shadow-black border-black">
-                        <img src="https://i.pinimg.com/originals/50/07/4e/50074e096cdd429a8423b3bcdab27145.jpg" 
-                        alt="Cinque Terre" >
-                        <div class="overlay">
-                             <div class="font-pb img-discription ">
-                                <div class="fs-5">
-                                    ZO7lE2A
-                                </div>
-                                Lorem Ipsum is simply dummy text
-                                of the printing and typesetting
-                                industry. Lorem Ipsum has been
-                                the industry's standard dummy
-                                text ever .
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card inline-block shadow-black border-black">
-                        <img src="https://i.pinimg.com/originals/50/07/4e/50074e096cdd429a8423b3bcdab27145.jpg" 
-                        alt="Cinque Terre" >
-                        <div class="overlay">
-                             <div class="font-pb img-discription ">
-                                <div class="fs-5">
-                                    ZO7lE2A
-                                </div>
-                                Lorem Ipsum is simply dummy text
-                                of the printing and typesetting
-                                industry. Lorem Ipsum has been
-                                the industry's standard dummy
-                                text ever .
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card inline-block shadow-black border-black">
-                        <img src="https://i.pinimg.com/originals/50/07/4e/50074e096cdd429a8423b3bcdab27145.jpg" 
-                        alt="Cinque Terre" >
-                        <div class="overlay">
-                             <div class="font-pb img-discription ">
-                                <div class="fs-5">
-                                    ZO7lE2A
-                                </div>
-                                Lorem Ipsum is simply dummy text
-                                of the printing and typesetting
-                                industry. Lorem Ipsum has been
-                                the industry's standard dummy
-                                text ever .
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card inline-block shadow-black border-black">
-                        <img src="https://i.pinimg.com/originals/50/07/4e/50074e096cdd429a8423b3bcdab27145.jpg" 
-                        alt="Cinque Terre" >
-                        <div class="overlay">
-                             <div class="font-pb img-discription ">
-                                <div class="fs-5">
-                                    ZO7lE2A
-                                </div>
-                                Lorem Ipsum is simply dummy text
-                                of the printing and typesetting
-                                industry. Lorem Ipsum has been
-                                the industry's standard dummy
-                                text ever .
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card inline-block shadow-black border-black">
-                        <img src="https://i.pinimg.com/originals/50/07/4e/50074e096cdd429a8423b3bcdab27145.jpg" 
-                        alt="Cinque Terre" >
-                        <div class="overlay">
-                             <div class="font-pb img-discription ">
-                                <div class="fs-5">
-                                    ZO7lE2A
-                                </div>
-                                Lorem Ipsum is simply dummy text
-                                of the printing and typesetting
-                                industry. Lorem Ipsum has been
-                                the industry's standard dummy
-                                text ever .
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card inline-block shadow-black border-black">
-                        <img src="https://i.pinimg.com/originals/50/07/4e/50074e096cdd429a8423b3bcdab27145.jpg" 
-                        alt="Cinque Terre" >
-                        <div class="overlay">
-                             <div class="font-pb img-discription ">
-                                <div class="fs-5">
-                                    ZO7lE2A
-                                </div>
-                                Lorem Ipsum is simply dummy text
-                                of the printing and typesetting
-                                industry. Lorem Ipsum has been
-                                the industry's standard dummy
-                                text ever .
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card inline-block shadow-black border-black">
-                        <img src="https://i.pinimg.com/originals/50/07/4e/50074e096cdd429a8423b3bcdab27145.jpg" 
-                        alt="Cinque Terre" >
-                        <div class="overlay">
-                             <div class="font-pb img-discription ">
-                                <div class="fs-5">
-                                    ZO7lE2A
-                                </div>
-                                Lorem Ipsum is simply dummy text
-                                of the printing and typesetting
-                                industry. Lorem Ipsum has been
-                                the industry's standard dummy
-                                text ever .
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card inline-block shadow-black border-black">
-                        <img src="https://i.pinimg.com/originals/50/07/4e/50074e096cdd429a8423b3bcdab27145.jpg" 
-                        alt="Cinque Terre" >
-                        <div class="overlay">
-                             <div class="font-pb img-discription ">
-                                <div class="fs-5">
-                                    ZO7lE2A
-                                </div>
-                                Lorem Ipsum is simply dummy text
-                                of the printing and typesetting
-                                industry. Lorem Ipsum has been
-                                the industry's standard dummy
-                                text ever .
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card inline-block shadow-black border-black">
-                        <img src="https://i.pinimg.com/originals/50/07/4e/50074e096cdd429a8423b3bcdab27145.jpg" 
-                        alt="Cinque Terre" >
-                        <div class="overlay">
-                             <div class="font-pb img-discription ">
-                                <div class="fs-5">
-                                    ZO7lE2A
-                                </div>
-                                Lorem Ipsum is simply dummy text
-                                of the printing and typesetting
-                                industry. Lorem Ipsum has been
-                                the industry's standard dummy
-                                text ever .
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card inline-block shadow-black border-black">
-                        <img src="https://i.pinimg.com/originals/50/07/4e/50074e096cdd429a8423b3bcdab27145.jpg" 
-                        alt="Cinque Terre" >
-                        <div class="overlay">
-                             <div class="font-pb img-discription ">
-                                <div class="fs-5">
-                                    ZO7lE2A
-                                </div>
-                                Lorem Ipsum is simply dummy text
-                                of the printing and typesetting
-                                industry. Lorem Ipsum has been
-                                the industry's standard dummy
-                                text ever .
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card inline-block shadow-black border-black">
-                        <img src="https://i.pinimg.com/originals/50/07/4e/50074e096cdd429a8423b3bcdab27145.jpg" 
-                        alt="Cinque Terre" >
-                        <div class="overlay">
-                             <div class="font-pb img-discription ">
-                                <div class="fs-5">
-                                    ZO7lE2A
-                                </div>
-                                Lorem Ipsum is simply dummy text
-                                of the printing and typesetting
-                                industry. Lorem Ipsum has been
-                                the industry's standard dummy
-                                text ever .
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card inline-block shadow-black border-black">
-                        <img src="https://i.pinimg.com/originals/50/07/4e/50074e096cdd429a8423b3bcdab27145.jpg" 
-                        alt="Cinque Terre" >
-                        <div class="overlay">
-                             <div class="font-pb img-discription ">
-                                <div class="fs-5">
-                                    ZO7lE2A
-                                </div>
-                                Lorem Ipsum is simply dummy text
-                                of the printing and typesetting
-                                industry. Lorem Ipsum has been
-                                the industry's standard dummy
-                                text ever .
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card inline-block shadow-black border-black">
-                        <img src="https://i.pinimg.com/originals/50/07/4e/50074e096cdd429a8423b3bcdab27145.jpg" 
-                        alt="Cinque Terre" >
-                        <div class="overlay">
-                             <div class="font-pb img-discription ">
-                                <div class="fs-5">
-                                    ZO7lE2A
-                                </div>
-                                Lorem Ipsum is simply dummy text
-                                of the printing and typesetting
-                                industry. Lorem Ipsum has been
-                                the industry's standard dummy
-                                text ever .
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card inline-block shadow-black border-black">
-                        <img src="https://i.pinimg.com/originals/50/07/4e/50074e096cdd429a8423b3bcdab27145.jpg" 
-                        alt="Cinque Terre" >
-                        <div class="overlay">
-                             <div class="font-pb img-discription ">
-                                <div class="fs-5">
-                                    ZO7lE2A
-                                </div>
-                                Lorem Ipsum is simply dummy text
-                                of the printing and typesetting
-                                industry. Lorem Ipsum has been
-                                the industry's standard dummy
-                                text ever .
-                            </div>
-                        </div>
+                        </a>
                     </div>
     </section>
 
@@ -581,7 +430,7 @@
         <div class="p-5">
             <div class="left-section w-60 inline-block">
                 <img id="footer-logo-img" class="w-50 mb-5" src="img/logo-img.png">
-   
+
 
             </div>
             <div class="left-section font-pb fs-3 p-5 w-20 float-right inline-block">
@@ -601,24 +450,46 @@
             <span class="m-5">
                 <i class="fab fa-twitter"></i>
             </span>
-            <span class="m-5">
+            <span class="text-white m-5">
+                <a class=" text-white" href="https://www.facebook.com/mindsandmachines/">
 
-                <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-facebook-f"></i>
+                </a>
             </span>
 
-            <span class="m-5">
-                <i class="fab fa-linkedin-in"></i>
+            <span class="m-5 text-white">
+                <a class=" text-white" href="https://www.facebook.com/mindsandmachines/">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
             </span>
             <span class="m-5">
                 <i class="fab fa-instagram"></i>
             </span>
-            <div class="mt-5 font-pb">
-                <i class="fas fa-copyright"></i> 2021 Minds&Machines
+            <div class="mt-5 font-pb ">
+                <i class="fas fa-copyright"></i>
+                2022 Minds & Machines
             </div>
         </div>
     </footer>
     <script src="js/dropdown.js"></script>
     <script src="js/slider.js"></script>
+    <script>
+        function closeEmbeddedPlay() {
+            var embeddedVideoPlayer = document.querySelector("#embeddedVideoPlayer");
+            var iframe = document.querySelector("#iframe");
+            iframe.src = " ";
+            embeddedVideoPlayer.style.display = "none";
+
+        }
+        function openEmbeddedPlay(url) {
+            var embeddedVideoPlayer = document.querySelector("#embeddedVideoPlayer");
+
+            embeddedVideoPlayer.style.display = "block";
+
+            var iframe = document.querySelector("#iframe");
+            iframe.src = url;
+        }
+    </script>
 </body>
 
 </html>

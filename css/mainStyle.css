@@ -135,8 +135,22 @@
    color: white;
 
 }
+.profile-card{
+   width: 1500px;
+}
+.arrow-button{
+   position:absolute;
+}
+body {
+   margin: 0;
 
+   padding: 0;
+   background: #fff;
+   /* background-repeat: no-repeat !important; */
+   /* background-size: cover !important; */
+   /* background-position: center !important; */
 
+}
 
 section {
    border-top: 1px solid rgb(41, 41, 41) !important;
